@@ -4,8 +4,6 @@ import ru.javaops.webapp.model.Resume;
 
 public interface Storage {
 
-
-
     void clear();
 
     void save(Resume r);
@@ -17,9 +15,6 @@ public interface Storage {
     void delete(String uuid);
 
     Resume[] getAll();
-
-    static void doSmth() {
-    }
 
     int size();
 }
